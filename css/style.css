@@ -36,25 +36,44 @@ header .nav-link{
     padding: 0px 20px;
 }
 
-/* Main */
+/* Main*/
 
 /* Section Portfolio */
 
-#portfolio{
-    border: 2px dashed green;
+#portfolio .line-star{
+    background-color: black;
+    width: 100px;
+    height: 2px;
 }
 
+#portfolio .col-12 i{
+    padding: 0px 20px;
+}
 
 /* Section About */
 
 #about{
-    border: 2px dashed blue;
-    height: 300px;
     background-color: var(--jumbotron-bg);
 }
 
-#about .col-12{
-    border: 2px solid black;
+#about .line-star{
+    background-color: white;
+    width: 100px;
+    height: 2px;
+}
+
+#about .btn{
+    background-color: var(--jumbotron-bg);
+    border: 1px solid white;
+    color: white;
+}
+
+#about .col-12 i{
+    padding: 0px 20px;
+}
+
+#about .btn i{
+    padding: 0px 5px;
 }
 
 /* Section Contact me */

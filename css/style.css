@@ -16,6 +16,10 @@ header .nav-link{
     color: white;
 }
 
+.navbar-toggler{
+    background-color: white;
+}
+
 /* Jumbotron */
 
 .jumbotron{
